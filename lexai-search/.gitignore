@@ -1,0 +1,52 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+client/dist/
+server/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local data and runtime files
+uploads/
+server/uploads/*
+!server/uploads/.gitkeep
+endee-data/
+NDData/
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives and large local assets
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Screenshots exports
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
+screenshots/*.webp
+
