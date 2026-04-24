@@ -44,9 +44,4 @@ NDData/
 *.gz
 *.7z
 
-# Screenshots exports
-screenshots/*.png
-screenshots/*.jpg
-screenshots/*.jpeg
-screenshots/*.webp
 
